@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   <script src="script.js" defer></script>
+   <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<header class="header">
+  <div class="header__left-group">
+    <img src="./assets/images/logo.svg" alt="" class="header__logo">
+  </div>
+  <button class="header__btn btn"><img src="./assets/images/icon-sun.svg" alt="" class="toggle--dark"></button>
+</header>
+
+<main class="main">
+  <section class="layout__flex">
+    <h1 class="heading__primary">Extensions List</h1>
+    <div class="btns">
+      <button class="btn btn--all">All</button>
+      <button class="btn btn--active">Active</button>
+      <button class="btn btn--inactive">Inactive</button>
+    </div>
+  </section>
+  <section class="layout__grid">
+    <div class="card">
+      <div class="card__content">
+        <img src="./assets/images/logo-devlens.svg" alt="" class="card__img">
+        <div class="">
+          <h2 class="heading__secondary">
+            DevLens
+          </h2>
+          <p>
+            Quickly inspect page layouts and visualize element boundaries.
+          </p>
+        </div>
+
+      </div>
+      
+      <div  class="extension__btns">
+        <button class="btn--remove">Remove</button>
+        <button class="btn--toggle"></button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__content">
+        <img src="./assets/images/logo-style-spy.svg" alt="" class="card__img">
+        <div class="">
+          <h2 class="heading__secondary">
+            StyleSpy
+          </h2>
+          <p>
+            Instantly analyze and copy CSS from any webpage element.
+          </p>
+        </div>
+
+      </div>
+      
+      <div class="extension__btns">
+        <button class="btn--remove">Remove</button>
+        <button class="btn--toggle">toggle</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__content">
+        <img src="./assets/images/logo-style-spy.svg" alt="" class="card__img">
+        <div class="">
+          <h2 class="heading__secondary">
+            SpeedBoost
+          </h2>
+          <p>
+            Optimizes browser resource usage to accelerate page loading.
+
+          </p>
+        </div>
+
+      </div>
+      
+      <div class="extension__btns">
+        <button class="btn--remove">Remove</button>
+        <button class="btn--toggle">toggle</button>
+      </div>
+    </div>
+  </section>
+  
+
+
+</main>
+
+</body>
+</html>
