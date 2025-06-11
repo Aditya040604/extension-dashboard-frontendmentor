@@ -11,6 +11,9 @@ Thanks for checking out this front-end coding challenge.
 A responsive, light/dark mode toggleable UI for managing browser extensions.
 Built as my first self-driven frontend project by researching, learning, and implementing features from scratch.
 
+## Live url
+(https://aditya040604.github.io/extension-dashboard-frontendmentor/)
+
 ## Features
 
 * Filter extensions by Active, Inactive, or All status
